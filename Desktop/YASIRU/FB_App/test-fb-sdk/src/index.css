@@ -1,0 +1,22 @@
+.container
+{
+    background: #ffffff
+}
+
+body{
+    font-family: 'Manjari', sans-serif;
+    background: #e0e0e0
+}
+
+.checkbox-one
+{
+    position: relative;
+    display: inline-block;
+    border-radius: .25em;
+    width: 1.2em;
+    height: 1.2em;
+    float: left;
+    margin-left: .5em;
+}
+
+
