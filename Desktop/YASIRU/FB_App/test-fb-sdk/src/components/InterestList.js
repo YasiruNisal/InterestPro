@@ -32,9 +32,9 @@ export default class InterestList extends Component {
 
   render() {
     return (
-      <>
-      <h3 className="mx-auto col-1">Interests</h3>
-      <div className="container pl-5 pt-3 rounded" style={{background:"#ececec"}}>
+      <div className="">
+      <h3 className="mx-auto col-1 py-5">Interests</h3>
+      <div className="container pl-5 pt-3 rounded " style={{background:"#ececec"}}>
         
         <div className="row" >
             <h5 className="col-md-3 text-center text-capitalize">Name</h5>
@@ -53,7 +53,7 @@ export default class InterestList extends Component {
       <InterestListItem key={item.id} data={item}/>
     ))}
     
-    </>
+    </div>
     );
   }
 }

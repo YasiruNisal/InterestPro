@@ -6,7 +6,7 @@ constructor(props)
 {
     super(props);
     console.log(props.data);
-    let {id, name, audience_size, path} = this.props.data
+    let { name, audience_size, path} = this.props.data
     console.log(path);
     if(path === null)
     {
@@ -38,7 +38,7 @@ render() {
                 <input type="checkbox" className="checkbox-one"></input>
                         <h5 className="col-md-3 text-center text-capitalize">{this.state.name}</h5>
                         <h5 className="col-md-3 text-center text-capitalize">{this.numberWithCommas(this.state.audience_size)}</h5>
-                        <h5 className="col-md-2 text-center text-capitalize overflow-auto text-nowrap">{this.state.path.join('>')}</h5>
+                        <h5 className="col-md-2 text-center text-capitalize overflow-auto text-nowrap display-0.2">{this.state.path.join('>')}</h5>
                         <div className="col-md-3 text-center">
                             <span className="facebook mx-4">
                                 <i className="fab fa-facebook fa-lg"></i>
